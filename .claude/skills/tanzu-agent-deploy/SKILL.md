@@ -10,7 +10,7 @@ Deploy AI agents on Tanzu Platform for Cloud Foundry via the
 and [MCP Gateway](https://techdocs.broadcom.com/us/en/vmware-tanzu/platform/ai-services/10-4/ai/tutorials-mcp-gateway.html).
 
 This skill is self-sufficient for the common workflows below. `README.md` at the
-repo root carries the same material with extra prose/links if more depth is needed.
+repo root describes how this fits into the overall demo-building workflow.
 
 ## 1. Agent Buildpack basics
 
