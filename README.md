@@ -1,8 +1,8 @@
 # Tanzu Agent Demo Kit
 
-This repo is a starting point for Tanzu Solution Architects to rapidly build
+This repo is a starting point to rapidly build
 and deploy **agentic application demos** on Tanzu Platform for Cloud Foundry.
-The goal of every demo built from this repo is the same: show a customer how
+The goal of every demo built from this repo is the same: show a user how
 the **Agent Buildpack** and **MCP Gateway** let them stand up a custom agent —
 with its own tools and behavior — in a handful of `cf` commands.
 
@@ -36,7 +36,7 @@ skills in this repo.
 
 ### 1. Brainstorm a demo
 
-Describe the customer's application domain and ask for ideas. A good demo
+Describe the user's application domain and ask for ideas. A good demo
 proposal includes: **two or more MCP servers** (each exposing a handful of
 tools backed by realistic sample data) and an **`AGENTS.md`** that gives the
 agent a persona and behavioral guidelines that lead to interesting output.
@@ -107,7 +107,7 @@ tools on every MCP server — that's the demo.
   without external dependencies or network access.
 - Use `AGENTS.md` to steer the agent toward demo-friendly behavior: combining
   data from multiple tools, formatting results clearly, and proactively
-  surfacing the kind of insight the customer cares about.
+  surfacing the kind of insight the user cares about.
 - Keep each MCP server focused on a handful of well-named tools — it keeps
   the tool-call trace easy to narrate during a live demo.
 - After any new MCP Gateway binding or model binding change, `cf restage` the
